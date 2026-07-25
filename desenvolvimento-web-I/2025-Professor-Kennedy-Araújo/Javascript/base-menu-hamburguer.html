@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Hamburguer</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        border: none;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      a {
+        color: black;
+      }
+
+      body {
+        background: gainsboro;
+      }
+
+      main,
+      footer {
+        padding: 20px;
+        margin: 5vw;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      header {
+        margin: 5vw;
+        background: white;
+        padding: 10px;
+      }
+
+      header button {
+        width: 5vw;
+        background: rgb(231, 229, 229);
+      }
+      header nav ul {
+        /* display: none; */
+        height: 0px;
+        overflow: hidden;
+        transition: 1s height;
+      }
+
+      @media screen and (min-width: 800px) {
+        header {
+          background: white;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+        }
+        header nav ul {
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+        }
+        header button {
+          display: none;
+        }
+        header,
+        main,
+        footer {
+          max-width: 800px;
+          margin: 2vw auto;
+        }
+      }
+    </style>
+
+    <header>
+      <nav>
+        <button aria-label="menu" onclick="mostraMenu()">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+        </button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Bem-vindo ao nosso site</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni iusto
+          ullam commodi reprehenderit repellat consequuntur cum voluptate quas
+          autem, laudantium rem quasi doloribus, tempora hic quia atque beatae
+          quidem dignissimos?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          deleniti optio facere possimus? Eum repudiandae sed sint distinctio
+          tempore beatae nesciunt voluptas totam? Iste corporis architecto,
+          nostrum repellat deserunt minima?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed neque
+          architecto repudiandae voluptatibus, enim, id illo quae aperiam veniam
+          laboriosam inventore. Velit sit accusamus doloribus ipsum nam
+          laboriosam iste nobis?
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Todos os direitos reservados © 2025</p>
+    </footer>
+    <script>
+      function mostraMenu() {
+        const menu = document.querySelector("header nav ul");
+/*(menu.style.display == "block") ? menu.style.display = "none" : menu.style.display = "block"; */
+menu.style.height == menu.scrollHeight + "px" ? menu.style.height = "0px" : menu.style.height = menu.scrollHeight + "px";
+    }   
+</script>
+  </body>
+</html>

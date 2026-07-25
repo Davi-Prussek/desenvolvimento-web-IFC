@@ -1,0 +1,121 @@
+main {
+    .parte-I {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    h1 {
+        font-size: 120px;
+            font-weight: bolder;
+    }
+    p {
+        font-size: 55px;
+        line-height: 80px;
+        color: #757575;
+    }
+    }
+
+    .parte-II {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
+    .parte-III {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        img {
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+    .parte-IV {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }}
+    .parte-V {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        img {
+            margin-top: 30px;
+            width: 100%;
+        }
+        }
+    }
+    .parte-VI {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
+    .parte-VII {
+        background-color: white;
+        padding: 30px 40px;
+        border: 2px solid #E5E5E5;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            color: #757575;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        img {
+            margin-top: 30px;
+            width: 100%;
+        }   
+    }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section class="parte-I" id="parte-I">
+            <h1>Bem vindo(a)!</h1>
+            <p>Para começar, qual seu nome?</p>
+            <form action="#">
+                <input type="text" id="nome" placeholder="Digite seu nome aqui">
+                <button type="button" id="proximo-I">Próxima</button>
+            </form>
+        </section>
+        <section class="parte-II" id="parte-II">
+            <h1><span></span>, você estuda no IFC?</h1>
+            <form action="#">
+                <label for="sim">
+                <input type="radio" value="1" name="estuda" id="sim">Sim
+                </label>
+                <label for="nao">
+                    <input type="radio" value="0" name="estuda" id="nao">Não
+                </label>
+                <button type="button" id="proximo-II">Próxima</button>
+            </form>
+        </section>
+        <section class="parte-III" id="parte-III">
+            <h1>Qual turma você pertence?</h1>
+            <form action="#">
+                <label for="turmas">Turma
+                </label>
+                <select name="turmas" id="turmas">
+                    <option value="1AGRO1">1AGRO1</option>
+                    <option value="1AGRO2">1AGRO2</option>
+                    <option value="1AGRO3">1AGRO3</option>
+                    <option value="1INFO1">1INFO1</option>
+                    <option value="1INFO2">1INFO2</option>
+                    <option value="1INFO3">1INFO3</option>
+                    <option value="1QUIMI">1QUIMI</option>
+                </select>
+                <button type="button" id="proximo-III">Próxima</button>
+            </form>
+        </section>
+        <section class="parte-IV" id="parte-IV">
+            <form action="#">
+                <h1>Saudações, <span id="nome"></span></h1>
+                <p>Você estuda na turma <span></span></p>
+                <button type="button" id="proximo-IV">
+                    Continuar
+                </button>
+            </form>
+        </section>
+    </main> 
+    <script src="js/script.js"></script>
+</body>
+</html>

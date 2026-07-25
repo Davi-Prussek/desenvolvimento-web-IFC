@@ -1,0 +1,19 @@
+[project]
+name = "garagem"
+version = "0.1.0"
+description = "estudos projeto garagem"
+authors = [
+    {name = "Davi-prussek", email = "davi.mariano.prussek0916@gmail.com"},
+]
+dependencies = ["django>=4.2.30", "djangorestframework>=3.16.1"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

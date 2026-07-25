@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        main section ul li {
+            p {
+                display: none;
+            }
+        }
+        main {
+            text-align: center;
+            h1 {
+                color: rgb(81, 125, 236);
+                margin: 20px 0 0 0;
+            }
+        }
+            main section {
+                ul { 
+                li {
+                    margin: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 15px 5px rgb(173, 173, 173);
+                    h2 {
+                    padding: 10px;
+                    border-radius: 10px;
+                    background-color: rgb(81, 125, 236);
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 30px;
+                    button {
+                        border: none;
+                        font-size: 40px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: rgb(81, 125, 236);
+                    }
+                    }
+                p {
+                    text-align: left;
+                    font-size: 18px;
+                    padding: 15px 20px;
+                        line-height: 28px;
+                        box-sizing: border-box;
+                        box-sizing: content-box;
+                    }
+                }
+            }
+            }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Atividade Accordion</h1>
+            <ul>
+                <li>
+                    <h2>Accordion One<button onclick="mostrarMenu(this)">+</button></h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam obcaecati minus tempora distinctio nam dolor error ducimus repellendus recusandae repellat veniam placeat cum quae, consequatur dolorem odit nobis cumque itaque!
+                    </p>
+                </li>
+                <li>
+                    <h2>Accordion Two<button onclick="mostrarMenu(this)">+</button></h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus possimus expedita quae vero aliquam illo laudantium cum voluptatum! Inventore adipisci culpa corrupti sed vero soluta harum dolore quae numquam!
+                    </p>
+                </li>
+                <li>
+                    <h2>Accordion Three<button onclick="mostrarMenu(this)">+</button></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto autem error illum sapiente earum voluptate, beatae omnis vel quam ex sed. Ea accusamus dolor consequuntur odio voluptatum qui excepturi quisquam.
+                    </p>
+                </li>
+                <li>
+                    <h2>Accordion Four<button onclick="mostrarMenu(this)">+</button></h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nisi deleniti quibusdam nobis culpa, rem veniam repellat asperiores fugit, iure ex nostrum accusamus! Sapiente repudiandae qui excepturi eos id. Ipsam!
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        function mostrarMenu(elemento) {
+            let paragrafo = elemento.parentElement.parentElement.querySelector("p");
+if (paragrafo.style.display == "block") { paragrafo.style.display = "none";elemento.innerHTML = "+"; } else { paragrafo.style.display = "block";elemento.innerHTML = "-";}
+}
+    </script>
+</body>
+</html>

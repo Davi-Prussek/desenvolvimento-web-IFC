@@ -1,0 +1,36 @@
+main {
+    .banner {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    h1 {
+        span {
+        font-size: 120px;
+            font-weight: bolder;}
+    }
+    p {
+        font-size: 55px;
+        line-height: 80px;
+        color: #757575;
+    }}
+    .redes {
+        ul {
+            margin-top: 200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            li {
+            border-radius: 25px;
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg {
+                    margin: 10px 0;
+                    height: 90px;
+                }        
+                font-size: 40px;
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+html {
+    body {
+    header {
+        font-size: 1.2rem;
+        background-color:#D08AA5;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1.3rem 20rem;
+
+        ul {
+            gap: 4.5rem;
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                a {
+                text-decoration: none;
+                color: white;
+                }
+            }
+        }
+    }
+    main {
+        text-align: center;
+        .parte-I {
+            padding-top: 4rem;
+            padding-bottom: 3rem;
+            color: white;
+            background-color: #D08AA5;
+            h1 {
+                font-size: 4.1rem;
+                span {
+                    border-bottom: 3px solid;
+                }
+            }
+            p {
+                margin: 1.2rem;
+                font-size: 1.65rem;
+            }
+            button {
+                font-size: 1.2rem;
+                border: none;
+                padding: 15px 20px;
+                border-radius: 10px;
+                margin: 0.8rem;
+            }
+        }
+        .parte-II {
+            background-color: #F0D8E1;
+            padding:2.8rem;
+            
+            ul {
+                gap: 8rem;
+                justify-content: center;
+                display: flex;
+                li {
+                    text-align: left;
+                    padding: 1.8rem;
+                    background-color: white;
+                    border-radius: 6px;
+                    h3 {
+                        font-size: 1.54rem;
+                        margin-bottom: 0.7rem;
+                    }
+                    p {
+                        color: #60697B;
+                        font-size: 1.2rem;
+                        line-height: 1.9rem;
+                    }
+                        .button-II {
+                            color: #F78B77;
+                            border: none;
+                        background-color: transparent;
+                        font-size: 1.2rem;
+                        margin: 0.7rem 0;
+                        }
+                        .button-I {
+                            color: #A07CC5;
+                            border: none;
+                        background-color: transparent;
+                        font-size: 1.2rem;
+                        margin: 0.7rem 0;
+                        }
+                }
+            }
+        }
+        .parte-III {
+            padding: 5rem;
+            h2 {
+                font-size: 3rem
+            }
+             .parte-III_div {
+                display: flex;
+                
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,66 @@
+html {
+    font-size: calc(12px + 0.390625vw);
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+/* === hearder ===*/
+header ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    color: black;
+}
+header ul li a {
+    color: black;
+    text-decoration:none;
+} 
+ /* === banner === */
+ section.banner {
+  text-align: center;
+  padding: 0 5vw 0 5vw;
+ }
+ section.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 10vw 0 10vw;
+ }
+ section.banner p {
+  margin: 15px 0 15px 0;
+  line-height: 1.5rem;
+ }
+ section.banner button {
+  background-color: #FF6464;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 15px 8px 15px;
+  font-size: 1.4rem;
+ }
+ /* === posts === */
+ section.posts {
+  background-color: #EDF7FA;
+  padding: 6vw 3vw 6vw 3vw;
+ }
+ section.posts h2 {
+  text-align: center;
+  padding: 0vw 3vw 5vw 3vw;
+  font-size: 1.2rem;
+ }
+ section.posts ul li {
+  background-color: WHITE;
+  padding: 3px 2px 3px 2px;
+  border-radius: 3px;
+  margin: 3vw 0 3vw 0;
+ }
+ section.posts ul li h3 {
+  font-size: 1.6rem;
+  padding: 15px;
+  font-weight: bold;
+  line-height: 2rem;
+ }
+ section.posts ul li p {
+  padding:  15px;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+ }

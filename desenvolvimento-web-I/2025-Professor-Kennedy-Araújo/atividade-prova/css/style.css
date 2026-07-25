@@ -1,0 +1,132 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+html {
+
+  body {
+    padding: 0.5rem 3rem;
+
+    header {
+      margin: 1rem 3rem 2rem 3rem;
+      nav {
+        display: flex;
+        justify-content: space-between;
+        
+        ul {
+          display: flex;
+          gap: 1.4rem;
+        }
+      }
+    }
+    main {
+      .banner {
+        margin-bottom: 8rem;
+        background-color: #dddddd;
+        border-radius: 1.1rem;
+        display: flex;
+        justify-content: space-around;
+        div {
+          margin: 7rem 5.5rem 0rem 5.5rem;
+          h2 {
+            font-size: 2.9rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            span {
+              color: #fd5d88;
+            }
+          }
+          p {
+            color: #60697B;
+            font-size: 1.58rem;
+          }
+          button {
+            color: white;
+            background-color: #fd5d88;
+            padding: 1.3rem 2.1rem;
+            border-radius: 0.7rem;
+            margin: 1.9rem 0rem;
+          }
+        }
+      }
+      .casos {
+        margin: 0px 27.5rem;
+        text-align: center;
+        h2 {
+          color: #fd5d88;
+          font-size: 1.3rem;
+        }
+        h3 {
+          color: #343F52;
+          font-weight: bold;
+          font-size: 2rem;
+          margin: 1.6rem;
+          line-height: 2.95rem;
+        }
+        ul {
+          display: flex;
+          text-align: center;
+          justify-content: space-between;
+          li {
+            width: 50%;
+            p {
+              text-align: left;
+              margin: 2rem 0;
+              color: #343F52;
+              font-size: 1.3rem;
+              font-weight: bold;
+            }
+            .descricao {
+                color: #AAB0BC;
+                font-weight: normal;
+              }
+          }
+        }
+      }
+      .join {
+        border-radius: 0.7rem;
+        padding: 5rem 0;
+        text-align: center;
+        background-color: #f8e7f7;
+        h2 {
+          color: #fd5d88;
+          font-size: 1.3rem;
+        }
+        h3 {
+          color: #343F52;
+          font-weight: bold;
+          font-size: 2rem;
+          margin: 1.6rem;
+          line-height: 2.95rem;
+        }
+        button {
+            color: white;
+            background-color: #fd5d88;
+            padding: 1.3rem 2.1rem;
+            border-radius: 0.7rem;
+            margin: 1.9rem 0rem;
+          
+        }
+        }
+      }
+      footer {
+        margin: 11rem 0 2rem 0;
+        text-align: center;
+        p {
+          font-size: 1.3rem;
+          margin: 1rem;
+        }
+        ul {
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+        }
+      }
+    }
+  }

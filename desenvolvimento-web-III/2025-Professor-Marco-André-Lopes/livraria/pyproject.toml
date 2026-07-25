@@ -1,0 +1,26 @@
+[project]
+name = "livraria"
+version = "0.1.0"
+description = "projeto de estudos de django em desenvolvimento web III"
+authors = [
+    {name = "Davi-prussek", email = "davi.mariano.prussek0916@gmail.com"},
+]
+dependencies = ["django>=4.2.30", "djangorestframework>=3.16.1", "djangorestframework-simplejwt>=5.5.1", "django-cors-headers>=4.9.0", "setuptools>=82.0.1", "Pillow>=11.3.0", "python-magic-bin>=0.4.14", "django-extensions>=4.1", "drf-spectacular>=0.29.0"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+dev = "python manage.py runserver"
+migrations = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
+super = "python manage.py createsuperuser"
+shell = "python manage.py shell"

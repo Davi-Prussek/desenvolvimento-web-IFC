@@ -1,0 +1,47 @@
+/* === Banner === */
+
+main section.banner {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    h1 {
+        font-size: 120px;
+            font-weight: bolder;
+    }
+    p {
+        font-size: 55px;
+        line-height: 80px;
+        color: #757575;
+    }
+}
+
+/* === Posts ===*/
+
+section.posts > ul > li {
+  background: white;
+  border: 1px solid #dcdcdc;
+  box-shadow: 1px 1px 2px #eeeded;
+  border-radius: 15px;
+  padding: 5vw;
+  margin: 0 0 6vw 0;
+}
+section.posts ul li h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+section.posts ul li p{
+  color: #757575;
+  line-height: 1.5rem;
+}
+section.posts ul li ul{
+  display: flex;
+  gap: 10px;
+}
+section.posts ul li ul li{
+  background: #dfdfdf;
+  padding: 2px 4px;
+  border-radius: 50px;
+}
+section.posts ul li img {
+    max-width: 100%;
+}
