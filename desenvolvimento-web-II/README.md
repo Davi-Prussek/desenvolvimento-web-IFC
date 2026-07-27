@@ -20,6 +20,8 @@
 
 **[Desenvolvimento Web II](https://github.com/ldmfabio/devwebII) :arrow_right: [Professor: Fábio Longo de Moura](https://github.com/ldmfabio)**
 
+**O professor não possui repositório :arrow_right: [Professor Cristofer Sousa](https://github.com/cristofersousa)**
+
 > _Desenvolvimento front-end usando framework Vue_
 
 **[Desenvolvimento Web III](https://github.com/marrcandre/django-drf-tutorial) :arrow_right: [Professor: Marco André Lopes Mendes](https://github.com/marrcandre/)**
