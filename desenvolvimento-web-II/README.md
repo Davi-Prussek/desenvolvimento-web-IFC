@@ -32,8 +32,4 @@
 
 ## [Ir para desenvolvimento web I](https://github.com/Davi-Prussek/desenvolvimento-web-IFC/tree/main/desenvolvimento-web-II)
 
----
-
 ## [Ir para desenvolvimento web III](https://github.com/Davi-Prussek/desenvolvimento-web-IFC/tree/main/desenvolvimento-web-III)
-
----
