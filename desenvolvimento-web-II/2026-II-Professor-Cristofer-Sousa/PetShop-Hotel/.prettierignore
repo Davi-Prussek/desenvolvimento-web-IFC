@@ -1,7 +1,0 @@
-node_modules/
-dist/
-coverage/
-.vite/
-*.min.css
-*.min.js
-package-lock.json
